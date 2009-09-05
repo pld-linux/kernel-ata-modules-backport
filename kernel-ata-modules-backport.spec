@@ -13,7 +13,7 @@ Release:	%{rel}@%{_kernel_ver_str}
 License:	GPL v2
 Group:		Base/Kernel
 Source0:	http://pld.atwa.us/~shadzik/%{pname}/%{pname}-%{version}-rc8.tar.gz
-# Source0-md5:	d5c25d1ab772bbb236e409f4a0f8caa0
+# Source0-md5:	91e30ad965a8e812c5d8403453ff8b24
 %{?with_dist_kernel:BuildRequires:	kernel%{_alt_kernel}-module-build >= 3:2.6.20.2}
 BuildRequires:	rpmbuild(macros) >= 1.379
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
